@@ -1,4 +1,4 @@
- {
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,4 +26,20 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px 0;
     border-bottom: 5px solid;
+}
+.txt_field {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 20px;
+}
+.button {
+    margin-top: 40px;
+    width: max-content;
+    align-self: center;
+}
+.form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
 }
